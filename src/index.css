@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: messiri;
+  src: url(./Components/fonts/el-messiri/elmessiri-regular.otf);
+}
+
+@font-face {
+  font-family: 'Noto sans';
+  src: url(./Components/fonts/Noto_Sans/NotoSans-SemiBold.ttf);
+}

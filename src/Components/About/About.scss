@@ -1,0 +1,38 @@
+.about{
+
+
+
+    &>h1{
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'noto sans';
+        // width: 300px;
+        // height: 100px;
+        // line-height: 100px;
+        // margin: auto;
+        // background: url(../images/bg.png) no-repeat center center / 100%;
+        // filter: hue-rotate(150deg);
+        // color: #fff;
+    }
+
+    // &>.konikmalar{
+
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     justify-content: space-evenly;
+
+    //     &>.skill{
+    //         width: 100px;
+    //         text-align: center;
+    //         margin: 15px;
+    //         border: 1px solid #999;
+    //         padding: 10px;
+    //     }
+    // }
+
+    &>p{
+        margin: 20px;
+        font-size: 20px;
+    }
+}

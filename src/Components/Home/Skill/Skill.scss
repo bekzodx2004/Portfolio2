@@ -1,0 +1,25 @@
+.home__skills__skill {
+  // display: flex;
+  margin: 15px 5px;
+  padding: 5px 0px;
+  align-items: center;
+  border: 1px solid #999;
+  text-align: center;
+  width: 310px;
+  cursor: default;
+
+  & > img {
+    height: 30px;
+    margin: 10px;
+    display: none;
+  }
+  & > h3 {
+    font-size: 30px;
+  }
+}
+
+.home__skills__skill:hover {
+  background: #1033bc;
+  color: #fff;
+  transition: all 200ms;
+}

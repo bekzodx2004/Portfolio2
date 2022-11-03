@@ -1,0 +1,28 @@
+.contacts {
+  background: #0e38bf;
+  overflow: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  & > .contact {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    &>img{
+        // background-color: #fff;
+        border-radius: 50%;
+        width: 30px;
+        margin-right: 10px;
+        filter: invert(1);
+    }
+    & > h3 {
+      margin-right: 10px;
+    }
+    & > a {
+      color: rgb(187, 187, 187);
+    }
+  }
+}
