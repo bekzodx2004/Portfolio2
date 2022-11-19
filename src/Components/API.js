@@ -20,7 +20,7 @@ import S3 from "./images/s3.png";
 import S4 from "./images/s4.png";
 import S5 from "./images/s5.png";
 import S6 from "./images/s6.png";
-import S7 from "./images/s7.png";
+// import S7 from "./images/s7.png";
 
 
 import C1 from "./images/cc1.png";
@@ -166,6 +166,7 @@ export let skills = [
     img: S3,
     nomi: "jQuery",
   },
+
   {
     id: 4,
     img: S4,
@@ -181,11 +182,12 @@ export let skills = [
     img: S6,
     nomi: "Html",
   },
-  {
-    id: 7,
-    img: S7,
-    nomi: "Git",
-  },
+  // {
+  //   id: 7,
+  //   img: S7,
+  //   nomi: "Git",
+  // },
+
 ];
 
 export let contacts = [
@@ -206,22 +208,49 @@ export let contacts = [
   // },
   {
     id : 5,
-    url:'+998 99 260 40 60',
-    title:'Telefon raqam',
+    url:'tel:+998 99 260 40 60',
+    title:'+998 99 260 40 60',
     img:C1 ,
   },
   
   {
     id : 4,
-    url:'@bekzodx2004',
+    url:'https://t.me/bekzodx2004',
     title:'Telegram',
     img:C2 ,
   },
   {
     id : 6,
-    url:'bekzodxojaniyazov2004@gmail.com',
-    title:'Email',
+    url:'mailto:bekzodxojaniyazov2004@gmail.com',
+    title:'bekzodxojaniyazov2004@gmail.com',
     img: C3,
   },
 
+]
+
+export let konikmalar = [
+  {
+    id : Math.random()*1000,
+    nomi : 'BEM'
+  },
+  {
+    id : Math.random()*1000,
+    nomi : 'SCSS'
+  },
+  {
+    id : Math.random()*1000,
+    nomi : 'WowJS , Animate CSS'
+  },
+  {
+    id : Math.random()*1000,
+    nomi : 'GitHub'
+  },
+  {
+    id : Math.random()*1000,
+    nomi : 'Charts'
+  },
+  {
+    id : Math.random()*1000,
+    nomi : 'Ant design'
+  },
 ]

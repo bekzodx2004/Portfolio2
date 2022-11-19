@@ -13,9 +13,9 @@ const Header = () => {
         <li>
           <Link to="/projects" className="link">Loyihalar</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/about" className="link">Men haqimda</Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link to="/contacts" className="link">Bog'lanish</Link>
         </li> */}

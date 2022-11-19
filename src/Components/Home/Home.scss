@@ -112,13 +112,25 @@
       }
     }
   }
+  & > .info {
+    & > h1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    & > p {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 35px;
+    }
+  }
 }
 
 @media screen and(max-width:1100px) {
-  .home{
-    &>.top{
-
-      &>img{
+  .home {
+    & > .top {
+      & > img {
         max-width: 380px;
         width: 100%;
       }
@@ -127,10 +139,9 @@
 }
 
 @media screen and(max-width:768px) {
-  .home{
-    &>.top{
-
-      &>img{
+  .home {
+    & > .top {
+      & > img {
         max-width: 100%;
       }
     }
